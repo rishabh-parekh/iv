@@ -1,0 +1,262 @@
+.world {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b1/India_map_en.svg');
+}
+
+.svg-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	/*padding-bottom: 100%; */
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+text {
+  fill: #fff;
+  font-size: 4rem;
+  font-family: sans-serif;
+}
+
+
+
+@media (max-width: 320px)
+{
+    p {
+		font-size: 6px;
+	    line-height: .5;
+		margin-bottom: 5px;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 800px)
+{
+    p {
+		font-size: 10px;
+	    line-height: 1;
+		margin-bottom: 8px;
+	}
+}
+
+@media (min-width: 801px)
+{
+    p {
+		font-size: 12px;
+	    line-height: 1.5;
+		margin-bottom: 20px;
+	}
+}
+/*
+.circles{
+    margin:0px auto;
+}
+.circles > div {
+    overflow:hidden;
+    float:left;
+    width:auto;
+    height:auto;
+    position: relative;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    -khtml-border-radius: 50%;
+    background:#3DB8A4;
+}
+
+.circles > div > div {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.circles > div > div > div {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.circles > div > div > div > div {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media (max-width: 320px)
+{
+    .circles > div {padding: 50%;}
+}
+
+@media (min-width: 321px) and (max-width: 800px)
+{
+    .circles > div {padding: 25%;}
+}
+
+@media (min-width: 801px)
+{
+    .circles{width:800px}
+    .circles > div {padding: 12.5%;}
+}
+*/
+
+
+/* https://muffinresearch.co.uk/displaying-a-circle-thats-responsive-in-all-directions/ */
+/*
+.outer {
+  align-items: center;
+  /*border: 1px solid #ccc;*
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  max-width: 100%;
+  overflow: auto;
+  padding: 50px;
+  /*resize:both;*
+}
+
+svg {
+  height: 100%;
+}
+
+circle {
+  fill: #3DB8A4;
+}
+
+text {
+  fill: #fff;
+  font-size: 4rem;
+  font-family: sans-serif;
+}
+*/
+
+/*
+.circle{
+  position:relative;
+  width:50%;
+  padding-bottom:50%;
+  background:gold;
+  border-radius:50%;
+}
+.circle h3{
+  position:absolute;
+  top:50%; left:50%;
+  transform: translate(-50%, -50%);
+  margin:0;
+}
+*/
+
+/**http://codeitdown.com/css-circles/
+.circle-text {
+    width:50%;
+}
+.circle-text:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height:0;
+    padding-bottom: 100%;
+    background: #4679BD;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.circle-text div {
+    float:left;
+    width:100%;
+    padding-top:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    color:white;
+}
+*/
+
+/*
+   #circle {
+      width: 50px;
+      height: 50px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background: red;
+    }
+
+
+.circle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: powderblue;
+    color: #333;
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+  padding: 5px;
+    &:before {
+      content: '';
+      display: inline-block;
+      height: 100%;
+      vertical-align: middle;
+      margin-right: -2%;
+     }
+      border: 5px solid darken(powderblue, 5%);
+      -webkit-transition: all 1s ease-out;
+      -moz-transition: all 1s ease-out;
+      -o-transition: all 1s ease-out;
+      transition: all 1s ease-out;
+     &:hover {
+       background-color: maroon;
+       border: 5px solid darken(maroon, 10%);
+       color: #fff;
+       }
+ }
+
+ .circle {
+  h1 {
+    font-size: 0.9em;
+    line-height: 1em;
+
+  }
+  p {
+    font-size: 0.8em;
+    line-height: 1em;
+    color:white;
+    text-align: center;
+  }
+  a {
+    color: inherit;
+  }
+  &>p, &>h1, &>.wrapcontent {
+    display: inline-block;
+    vertical-align: middle;
+    &>p, &>h1 {
+      display:block;
+    }
+  }
+}
+
+@media only screen and (min-width: 481px) {
+.circle {
+  h1 {
+    font-size: 1.2em;
+    line-height: 1em;
+  }
+  p {
+    font-size: 1em;
+    line-height: 1em;
+  }
+}
+}
+@media only screen and (min-width: 768px) {
+.circle {
+  h1 {
+    font-size: 1.6em;
+    line-height: 1em;
+  }
+  p {
+    font-size: 1.2em;
+    line-height: 1em;
+  }
+}
+}*/

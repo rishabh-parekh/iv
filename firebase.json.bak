@@ -1,0 +1,14 @@
+{
+  "database": {
+    "rules": "y"
+  },
+  "hosting": {
+    "public": "dist",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

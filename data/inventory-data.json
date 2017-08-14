@@ -1,0 +1,150 @@
+{
+  "data" : [ {
+    "author" : "George R. R. Martin",
+    "id" : 1,
+    "noOfEquipments" : 0,
+    "title" : "A Game of Thrones",
+    "year" : 1996
+  }, {
+    "author" : "George R. R. Martin",
+    "id" : 2,
+    "noOfEquipments" : 0,
+    "title" : "A Clash of Kings",
+    "year" : 1998
+  }, {
+    "author" : "George R. R. Martin",
+    "id" : 3,
+    "noOfEquipments" : 0,
+    "title" : "A Storm of Swords",
+    "year" : 2000
+  }, {
+    "author" : "George R. R. Martin",
+    "id" : 4,
+    "noOfEquipments" : 0,
+    "title" : "A Feast for Crows",
+    "year" : 2005
+  }, {
+    "author" : "George R. R. Martin",
+    "id" : 5,
+    "noOfEquipments" : 0,
+    "title" : "A Dance with Dragons",
+    "year" : 2011
+  }, {
+    "author" : "George R. R. Martin",
+    "id" : 6,
+    "noOfEquipments" : 0,
+    "title" : "The Winds of Winter"
+  }, {
+    "author" : "George R. R. Martin",
+    "id" : 7,
+    "noOfEquipments" : 0,
+    "title" : "A Dream of Spring"
+  }, {
+    "author" : "J. K. Rowling",
+    "id" : 8,
+    "noOfEquipments" : 0,
+    "title" : "The Philosopher's Stone",
+    "year" : 1997
+  }, {
+    "author" : "J. K. Rowling",
+    "id" : 9,
+    "noOfEquipments" : 0,
+    "title" : "The Chamber of Secrets",
+    "year" : 1998
+  }, {
+    "author" : "J. K. Rowling",
+    "id" : 10,
+    "noOfEquipments" : 0,
+    "title" : "The Prisoner of Azkaban",
+    "year" : 1999
+  }, {
+    "author" : "J. K. Rowling",
+    "id" : 11,
+    "noOfEquipments" : 0,
+    "title" : "The Goblet of Fire",
+    "year" : 2000
+  }, {
+    "author" : "J. K. Rowling",
+    "id" : 12,
+    "title" : "The Order of the Phoenix",
+    "year" : 2003
+  }, {
+    "author" : "J. K. Rowling",
+    "id" : 13,
+    "noOfEquipments" : 0,
+    "title" : "The Half-Blood Prince",
+    "year" : 2005
+  }, {
+    "author" : "J. K. Rowling",
+    "id" : 14,
+    "noOfEquipments" : 0,
+    "title" : "The Deathly Hallows",
+    "year" : 2007
+  }, {
+    "author" : "Jo Nesb�",
+    "id" : 15,
+    "noOfEquipments" : 0,
+    "title" : "Flaggermusmannen",
+    "year" : 1997
+  }, {
+    "author" : "Jo Nesb�",
+    "id" : 16,
+    "noOfEquipments" : 0,
+    "title" : "Kakerlakkene",
+    "year" : 1998
+  }, {
+    "author" : "Jo Nesb�",
+    "id" : 17,
+    "noOfEquipments" : 0,
+    "title" : "R�dstrupe",
+    "year" : 2000
+  }, {
+    "author" : "Jo Nesb�",
+    "id" : 18,
+    "noOfEquipments" : 0,
+    "title" : "Sorgenfri",
+    "year" : 2002
+  }, {
+    "author" : "Jo Nesb�",
+    "id" : 19,
+    "noOfEquipments" : 0,
+    "title" : "Marekors",
+    "year" : 2003
+  }, {
+    "author" : "Jo Nesb�",
+    "id" : 20,
+    "noOfEquipments" : 0,
+    "title" : "Frelseren",
+    "year" : 2005
+  }, {
+    "author" : "Jo Nesb�",
+    "id" : 21,
+    "noOfEquipments" : 0,
+    "title" : "Sn�mannen",
+    "year" : 2007
+  }, {
+    "author" : "Jo Nesb�",
+    "id" : 22,
+    "noOfEquipments" : 0,
+    "title" : "Panserhjerte",
+    "year" : 2009
+  }, {
+    "author" : "Jo Nesb�",
+    "id" : 23,
+    "noOfEquipments" : 0,
+    "title" : "Gjenferd",
+    "year" : 2011
+  }, {
+    "author" : "Jo Nesb�",
+    "id" : 24,
+    "noOfEquipments" : 0,
+    "title" : "Politi",
+    "year" : 2013
+  }, {
+    "author" : "Jo Nesb�",
+    "id" : 25,
+    "noOfEquipments" : 0,
+    "title" : "T�rst",
+    "year" : 2017
+  } ]
+}

@@ -1,0 +1,42 @@
+# latest node image with firebase cli
+box: devillex/docker-firebase
+
+build:
+  steps:
+    - npm-install
+    - script:
+        name: install ng
+        code: npm install -g @angular/cli
+    - script:
+        name: echo npm, node, ng version information
+        code: |
+          echo "node version $(node -v) running"
+          echo "npm version $(npm -v) running"
+          echo "ng --version"
+    - script:
+        name: npm function
+        code: cd functions ; npm install ; cd ..
+    - script:
+        name: run ng build
+        code: ng build
+    # - script:
+    #     name: ng test
+    #     code: ng test
+    # - script:
+    #     name: ng e2e
+    #     code: ng e2e
+
+  after-steps:
+    - slack-notifier:
+        url: $SLACK_WEBHOOK_URL
+        username: wercker
+
+deploy-firebase:
+  steps:
+    - devillex/firebase-deploy@1.1.0:
+        project: $FIREBASE_PROJECT_NAME
+        token: $FIREBASE_TOKEN
+  after-steps:
+    - slack-notifier:
+        url: $SLACK_WEBHOOK_URL
+        username: wercker
