@@ -1,0 +1,66 @@
+[{
+    "id": "1",
+    "imgURL" : "assets/img/mbr-2000x1333-800x533.jpg",
+    "title" : "Believe",
+    "author": "Martin Luther King, Jr.",
+    "quote": "I believe that unarmed truth and unconditional love will have the final word.",
+    "audioURL": "https://anchor.fm/e/9d6fe8?at=604329"
+  },
+  {
+    "id": "2",
+    "imgURL" : "assets/img/mbr-1-2000x1333-800x533.jpg",
+    "title" : "Blessed",
+    "author": "DJ Khaled",
+    "quote": "We all want to win more, but it's all about being blessed and embracing your blessings. We have life.",
+    "audioURL": "https://anchor.fm/e/116e350?at=611489"
+  },
+  {
+    "id": "3",
+    "imgURL" : "assets/img/mbr-4-2000x1333-800x533.jpg",
+    "title" : "I can do",
+    "author": "Henry Ford",
+    "quote": "There is no man living that can not do more than he thinks he can.",
+    "audioURL": "https://anchor.fm/e/116e350?at=611489"
+  },
+  {
+    "id": "4",
+    "imgURL" : "assets/img/mbr-2-2000x1333-800x533.jpg",
+    "title" : "Strong",
+    "author": "Nelson Mandela",
+    "quote": "I learned that courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear.",
+    "audioURL": "https://www.youtube.com/embed/R-qQscvmV70"
+  },
+  {
+    "id": "5",
+    "imgURL" : "assets/img/mbr-6-2000x1333-800x533.jpg",
+    "title" : "Persistence",
+    "author": "Benjamin Franklin",
+    "quote": "Energy and persistence conquer all things.",
+    "audioURL": "https://anchor.fm/e/116e350?at=611476"
+  },
+  {
+    "id": "6",
+    "imgURL" : "assets/img/mbr-8-2000x1333-800x533.jpg",
+    "title" : "Positive",
+    "author": "Dalai Lama",
+    "quote": "In order to carry a positive action we must develop here a positive vision.",
+    "audioURL": "https://anchor.fm/e/9d6fe8?at=604329"
+  },
+  {
+    "id": "7",
+    "imgURL" : "assets/img/mbr-7-2000x1333-800x533.jpg",
+    "title" : "Empathy",
+    "author": "Maya Angelou",
+    "quote": "I think we all have empathy. We may not have enough courage to display it.",
+    "audioURL": "https://anchor.fm/e/9d6fe8?at=604329"
+  },
+  {
+    "id": "8",
+    "imgURL" : "assets/img/mbr-2000x1334-800x533.jpg",
+    "title" : "Kindness",
+    "author": "Princess Diana",
+    "quote": "Carry out a random act of kindness, with no expectation of reward, safe in the knowledge that one day someone might do the same for you.",
+    "audioURL": "https://anchor.fm/e/9d6fe8?at=604329"
+  }
+
+]

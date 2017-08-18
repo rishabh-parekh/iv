@@ -2,6 +2,8 @@
   "projects": {
     "default": "illuminatestories-7172a",
     "palav-dev": "illuminatestories-7172a",
-    "staging": "illuminatestories-7172a"
+    "staging": "illuminatestories-7172a",
+    "dev": "illuminatestories-7172a",
+    "iv-dev": "illuminatestories-7172a"
   }
 }

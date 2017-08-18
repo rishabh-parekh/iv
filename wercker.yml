@@ -5,8 +5,11 @@ build:
   steps:
     - npm-install
     - script:
-        name: install ng
+        name: install angular cli
         code: npm install -g @angular/cli
+    - script:
+        name: install npm
+        code: npm install
     - script:
         name: echo npm, node, ng version information
         code: |
@@ -19,12 +22,12 @@ build:
     - script:
         name: run ng build
         code: ng build
-    # - script:
-    #     name: ng test
-    #     code: ng test
-    # - script:
-    #     name: ng e2e
-    #     code: ng e2e
+    - script:
+         name: ng test
+         code: ng test
+    - script:
+         name: ng e2e
+         code: ng e2e
 
   after-steps:
     - slack-notifier:

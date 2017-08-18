@@ -1,0 +1,60 @@
+[{
+    "id": "1",
+    "imgURL" : "assets/img/shop/shop-believe-bracelet.jpg",
+    "title" : "Believe",
+    "quote": "I believe that unarmed truth and unconditional love will have the final word.",
+    "author": "Martin Luther King, Jr.",
+    "shopURL": "https://www.etsy.com/listing/464988328/believe-bracelet-believe-believe-jewelry?ref=hp_rv",
+    "price" : "$16.99"
+  },
+  {
+    "id": "2",
+    "imgURL" : "assets/img/shop/shop-blessed-chain.jpg",
+    "title" : "Blessed",
+    "quote": "We all want to win more, but it's all about being blessed and embracing your blessings. We have life.",
+    "author": "DJ Khaled",
+    "shopURL": "https://www.etsy.com/listing/228274674/sterling-silver-bar-peronalized-necklace?ref=hp_rv",
+    "price" : "$12"
+
+  },
+  {
+    "id": "3",
+    "imgURL" : "assets/img/shop/shop-can-do-bracelet.jpg",
+    "title" : "I can do",
+    "quote": "There is no man living that can not do more than he thinks he can.",
+    "author": "Henry Ford",
+    "shopURL": "https://www.etsy.com/listing/535659698/i-can-do-all-things-bracelet-graduation",
+    "price" : "$19"
+
+  },
+  {
+    "id": "4",
+    "imgURL" : "assets/img/shop/shop-charms.jpg",
+    "title" : "Strong",
+    "quote": "I learned that courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear.",
+    "author": "Nelson Mandela",
+    "shopURL": "https://www.etsy.com/listing/505413749/personalized-word-charm-58-inch-charm?ref=hp_rv",
+    "price" : "$18"
+
+  },
+  {
+    "id": "5",
+    "imgURL" : "assets/img/shop/shop-persisted-chain.jpg",
+    "title" : "Persistence",
+    "quote": "Energy and persistence conquer all things.",
+    "author": "Benjamin Franklin",
+    "shopURL": "https://www.etsy.com/listing/522884757/nevertheless-she-persisted-necklace",
+    "price" : "$29"
+
+  },
+  {
+    "id": "6",
+    "imgURL" : "assets/img/shop/shop-charm-bracelet.jpg",
+    "title" : "Positive",
+    "quote": "In order to carry a positive action we must develop here a positive vision.",
+    "author": "Dalai Lama",
+    "shopURL": "https://www.etsy.com/listing/257267081/positive-mind-positive-vibes-positive",
+    "price" : "$10.99"
+
+  }
+]
