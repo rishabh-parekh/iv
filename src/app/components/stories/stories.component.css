@@ -1,3 +1,31 @@
 .gallery-item {
   padding: 0
 }
+
+.title {
+  padding-top: 25px; 
+}
+.item .item-title .item-quote {
+  font-family: 'Sterling Display 3r','Sterling Display A','Sterling Display B',serif;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 34px;
+}
+
+.item-quote {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  font-weight: 150;
+  font-style: italic;
+}
+
+.author {
+  text-transform:uppercase;
+  font-style: bold;
+}
+.item-price {
+  font-family: "Sterling SSm A", "Sterling SSm B", serif;
+  text-transform:uppercase;
+  line-height:48px
+
+}

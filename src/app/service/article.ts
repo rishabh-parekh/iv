@@ -1,8 +1,10 @@
 export interface IArticle
 {
     id: number;
-    title: string;
-    summary: string;
     imgURL: string;
+    title: string;
+    author: string;
+    quote: string;
     audioURL: string;
+    shortStory: string;
 }

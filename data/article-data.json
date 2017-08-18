@@ -4,7 +4,8 @@
     "title" : "Believe",
     "author": "Martin Luther King, Jr.",
     "quote": "I believe that unarmed truth and unconditional love will have the final word.",
-    "audioURL": "https://anchor.fm/e/9d6fe8?at=604329"
+    "audioURL": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/21913995&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+    "shortStory": "Five score years ago, a great American, in whose symbolic shadow we stand today, signed the Emancipation Proclamation. This momentous decree came as a great beacon light of hope to millions of Negro slaves who had been seared in the flames of withering injustice. It came as a joyous daybreak to end the long night of their captivity. But one hundred years later, the Negro still is not free. One hundred years later, the life of the Negro is still sadly crippled by the manacles of segregation and the chains of discrimination. One hundred years later, the Negro lives on a lonely island of poverty in the midst of a vast ocean of material prosperity. One hundred years later, the Negro is still languished in the corners of American society and finds himself an exile in his own land. And so we've come here today to dramatize a shameful condition."
   },
   {
     "id": "2",
@@ -12,15 +13,18 @@
     "title" : "Blessed",
     "author": "DJ Khaled",
     "quote": "We all want to win more, but it's all about being blessed and embracing your blessings. We have life.",
-    "audioURL": "https://anchor.fm/e/116e350?at=611489"
+    "audioURL":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/332778610&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true",
+    "shortStory": "Khaled Mohamed Khaled, 41, is a man who appreciates the small things. And -- as we return to his recently acquired $10 million mansion in a gated 90210 community -- I’m reminded that Khaled also appreciates the big things. The driveway is crowded with Rolls-Royce Wraiths, one black and one Arabian blue, plus the Escalade he signed for earlier that day (more on that later). There’s nothing middling about the producer’s life or career, the line between which he has been gleefully blurring since he became a Snapchat celebrity/sentient meme in late 2015. “That’s me being myself,” says Khaled, referring to his outsize online persona. “These artists work with me because I make good music, but also because I have good energy, a good heart and I’m grateful -- the special things that God is blessing me with, now the world can see them."
   },
   {
     "id": "3",
     "imgURL" : "assets/img/mbr-4-2000x1333-800x533.jpg",
     "title" : "I can do",
-    "author": "Henry Ford",
-    "quote": "There is no man living that can not do more than he thinks he can.",
-    "audioURL": "https://anchor.fm/e/116e350?at=611489"
+    "author": "Walt Disney",
+    "quote": "If you can dream it, you can do it",
+    "audioURL": "https://www.youtube.com/embed/uof_fMbGyIM",
+    "shortStory": "Walt Disney’s success story was full of painful events and failures. When he returned from serving as a Red Cross  volunteer in World War I, he’d had enough time to think about his future. He wanted to make cartoon motion pictures. So in 1920 he started his own company at the age of 19, drawing cartoons of the creatures from his childhood. At the same time he had so little money to pay the rent, being forced to live with friends and often going without food. He failed to sell a single cartoon. At the age of 22, he went bankrupt after the brutal failure of a cartoon series in Kansas City. He went bankrupt several times. He also wanted to become a Hollywood actor but it never happened. He was once fired by a newspaper editor who accused him to be lazy and lacking imagination and creative ideas.Three years later he left Kansas City for Hollywood to pursue his childhood dream. He set up a studio in a converted garage and, after five years – a long time when he is without an income, he struck little success with a short animation of ‘Alice in Cartoonland’ and ‘Oswald the Rabbit'. But again in 1928 some of his cartoonists left taking Oswald with them. Disney was shattered. His success was short lived and he returned to having nowhere to live and little money for food. But his secret of success was within him. Out of the disaster he created his first Mickey Mouse character and, suddenly, he was on the road to real success. Rest is the history."
+
   },
   {
     "id": "4",
@@ -28,15 +32,18 @@
     "title" : "Strong",
     "author": "Nelson Mandela",
     "quote": "I learned that courage was not the absence of fear, but the triumph over it. The brave man is not he who does not feel afraid, but he who conquers that fear.",
-    "audioURL": "https://www.youtube.com/embed/R-qQscvmV70"
+    "audioURL": "https://www.youtube.com/embed/lkPweoq_CnE",
+    "shortStory" : "'Black Man In A White Man's Court' - In its proper meaning equality before the law means the right to participate in the making of the laws by which one is governed, a constitution which guarantees democratic rights to all sections of the population, the right to approach the court for protection or relief in the case of the violation of rights guaranteed in the constitution, and the right to take part in the administration of justice as judges, magistrates, attorneys-general, law advisers and similar positions. In the absence of these safeguards the phrase 'equality before the law', in so far as it is intended to apply to us, is meaningless and misleading. All the rights and privileges to which I have referred are monopolised by whites, and we enjoy none of them. The white man makes all the laws, he drags us before his courts and accuses us, and he sits in judgement over us."
+
   },
   {
     "id": "5",
     "imgURL" : "assets/img/mbr-6-2000x1333-800x533.jpg",
-    "title" : "Persistence",
-    "author": "Benjamin Franklin",
-    "quote": "Energy and persistence conquer all things.",
-    "audioURL": "https://anchor.fm/e/116e350?at=611476"
+    "title" : "Overcome",
+    "author": "Barack Obama",
+    "quote": "It was not a clash of armies, but a clash of wills; a contest to determine the true meaning of America.",
+    "audioURL": "https://www.youtube.com/embed/7SoG4KZOvRc",
+    "shortStory": "The American instinct that led these young men and women to pick up the torch and cross this bridge is the same instinct that moved patriots to choose revolution over tyranny. It’s the same instinct that drew immigrants from across oceans and the Rio Grande; the same instinct that led women to reach for the ballot and workers to organize against an unjust status quo; the same instinct that led us to plant a flag at Iwo Jima and on the surface of the Moon. It’s the idea held by generations of citizens who believed that America is a constant work in progress; who believed that loving this country requires more than singing its praises or avoiding uncomfortable truths. It requires the occasional disruption, the willingness to speak out for what’s right and shake up the status quo."
   },
   {
     "id": "6",
@@ -44,7 +51,8 @@
     "title" : "Positive",
     "author": "Dalai Lama",
     "quote": "In order to carry a positive action we must develop here a positive vision.",
-    "audioURL": "https://anchor.fm/e/9d6fe8?at=604329"
+    "audioURL": "https://www.youtube.com/embed/MyfOIHF_YdE",
+    "shortStory": "With the ever growing impact of science on our lives, religion and spirituality have a greater role to play reminding us of our humanity. There is no contradiction between the two. Each gives us valuable insights into the other. Both science and the teachings of the Buddha tell us of the fundamental unity of all things. This understanding is crucial if we are to take positive and decisive action on the pressing global concern with the environment. I believe all religions pursue the same goals, that of cultivating human goodness and bringing happiness to all human beings. Though the means might appear different the ends are the same. As we enter the final decade of this century I am optimistic that the ancient values that have sustained mankind are today reaffirming themselves to prepare us for a kinder, happier twenty-first century. I pray for all of us, oppressor and friend, that together we succeed in building a better world through human under-standing and love, and that in doing so we may reduce the pain and suffering of all sentient beings."
   },
   {
     "id": "7",
@@ -52,15 +60,17 @@
     "title" : "Empathy",
     "author": "Maya Angelou",
     "quote": "I think we all have empathy. We may not have enough courage to display it.",
-    "audioURL": "https://anchor.fm/e/9d6fe8?at=604329"
+    "audioURL": "https://www.youtube.com/embed/cbecKv2xR14",
+    "shortStory": "The free bird leaps\n on the back of the wind\nand floats downstream\ntill the current ends\nand dips his wings\nin the orange sun rays\nand dares to claim the sky.\n\nBut a bird that stalks\ndown his narrow cage\ncan seldom see through\nhis bars of rage\nhis wings are clipped and\nhis feet are tied\nso he opens his throat to sing.\n\nThe caged bird sings\nwith fearful trill\nof the things unknown\nbut longed for still\nand his tune is heard\non the distant hill\nfor the caged bird\nsings of freedom\n\n The free bird thinks of another breeze\n and the trade winds soft through the sighing trees\n and the fat worms waiting on a dawn-bright lawn\n\n and he names the sky his own.\n\n But a caged bird stands on the grave of dreams\n his shadow shouts on a nightmare scream\n his wings are clipped and his feet are tied\nso he opens his throat to sing\n\nThe caged bird sings\n with a fearful trill\n of things unknown\n but longed for still\n and his tune is heard\n on the distant hill\n for the caged bird \n sings of freedom"
   },
   {
     "id": "8",
     "imgURL" : "assets/img/mbr-2000x1334-800x533.jpg",
     "title" : "Kindness",
-    "author": "Princess Diana",
-    "quote": "Carry out a random act of kindness, with no expectation of reward, safe in the knowledge that one day someone might do the same for you.",
-    "audioURL": "https://anchor.fm/e/9d6fe8?at=604329"
+    "author": "Amelia Earhart",
+    "quote": "A single act of kindness throws out roots in all directions and the roots spring up and make new trees",
+    "audioURL": "https://www.youtube.com/embed/7unHEeJkKww",
+    "shortStory" : "In aviation, they are arbiters of whether or not their families shall fly, and as such , are a potent influence. And lastly, there is a place within the industry itself, for women who work. While still greatly outnumbered, they are finding more and more opportunities for employment in the ranks of this latest transportation medium. May I hope this movement will spread throughout all branches of applied science and industry and that women may come to share with men the joy of doing. Those can appreciate rewards most who have helped create."
   }
 
 ]
