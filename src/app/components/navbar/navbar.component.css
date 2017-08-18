@@ -12,7 +12,7 @@
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
     border-color: #e7e7e7;
-    background-color: rgba(0,196,126,0.65);
+    background-color: rgba(0,0,0,0.65);
 }
 
 .navbar-default .navbar-header .navbar-brand {

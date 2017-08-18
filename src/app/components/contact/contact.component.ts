@@ -9,8 +9,7 @@ import {ContactService} from '../../service/contact.service';
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.css']
 })
-export class ContactComponent implements OnInit
-{
+export class ContactComponent implements OnInit {
   contactData: ContactData;
   constructor(private contactService: ContactService) { }
 
@@ -18,14 +17,12 @@ export class ContactComponent implements OnInit
   }
 
 
-  onContact(form: NgForm)
-  {
+  onContact(form: NgForm) {
     console.log('onContact:' + form.value.contname);
-    this.contactData = new  ContactData(''+new Date(),form.value.contname,form.value.contemail,form.value.contphone,form.value.conturl,form.value.contmessage);
+    this.contactData = new ContactData('' + new Date(), form.value.contname, form.value.contemail, form.value.contphone, form.value.contmessage);
     this.contactService.updateContactData(this.contactData).then(
-      (item) =>
-      { 
-	console.log(item.key); 
+      (item) => {
+        console.log(item.key);
       });
   }
 

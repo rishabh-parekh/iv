@@ -1,56 +1,36 @@
-<section id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12  text-center">
-                <h2 class="section-heading">Let's Get In Touch!</h2>
-
-
-
-			  <form id="contact" (ngSubmit)="onContact(c)" #c="ngForm">
-
-				<fieldset>
-				  <input placeholder="Your name" type="text" id="contname" ngModel name="contname" tabindex="1" required autofocus>
-				</fieldset>
-				<fieldset>
-				  <input placeholder="Your Email Address"  id="contemail" ngModel name="contemail"  type="email" tabindex="2" required>
-				</fieldset>
-				<fieldset>
-				  <input placeholder="Your Phone Number (optional)" id="contphone" ngModel name="contphone"  type="tel" tabindex="3" required>
-				</fieldset>
-				<fieldset>
-				  <input placeholder="Your Web Site (optional)" id="conturl" ngModel name="conturl" type="url" tabindex="4" required>
-				</fieldset>
-				<fieldset>
-				  <textarea placeholder="Type your message here...." tabindex="5" id="contmessage" ngModel name="contmessage" required></textarea>
-				</fieldset>
-				<fieldset>
-				  <button name="submit" type="submit" id="contact-submit">Submit</button>
-				</fieldset>
-				<p><a href="mailto:your-email@your-domain.com">info@palav.org</a></p>
-			  </form>
-
-
-            </div>
-
-			</div>
-
-<div class="row">
-
-            <div class="col-lg-6  text-center">
-                <i class="fa fa-address-card fa-3x sr-contact"></i>
-                <div>
-                  <p>PO Box: 208, Novi, Michigan, USA-48376. </p>
-                  <i class="fa fa-phone"> </i> 248-347-2821
-                </div>
-            </div>
-            <div class="col-lg-6  text-center">
-                <i class="fa fa-address-card fa-3x" aria-hidden="true"></i>
-                <div>
-                  <p>73/1-C, Jagdeep Society, Bhakti Marg, Erandwane, Pune, India-411004. </p>
-                    <i class="fa fa-phone"> </i> 91-9421081310
-                </div>
-            </div>
-          
-        </div>
+<section class="no-padding jumbotron text-center"  id="connect">
+  <div class="container no-padding">
+    <div class="row">
+      <div class="col-lg-12  text-center">
+        <h2 class="section-heading">Let's Get In Touch!</h2>
+        <form id="contact" (ngSubmit)="onContact(c)" #c="ngForm">
+          <fieldset>
+            <input placeholder="Your name" type="text" id="contname" ngModel name="contname" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" id="contemail" ngModel name="contemail" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number (optional)" id="contphone" ngModel name="contphone" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your message here...." tabindex="5" id="contmessage" ngModel name="contmessage" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit">Submit</button>
+          </fieldset>
+        </form>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-lg-12  text-center">
+        <i class="fa fa-address-card fa-3x sr-contact"></i>
+        <div>
+          <p>Illuminate Stories, Farmington Hills, Michigan, USA-48331. </p>
+          <i class="fa fa-phone"> </i> 248-890-3022
+        </div>
+        <div class="fa fa-envelope"> <a class="mail" href="mailto:rishabh.parekh00@gmail.com"> rishabh.parekh00@gmail.com </a> </div>
+      </div>
+    </div>
+  </div>
 </section>

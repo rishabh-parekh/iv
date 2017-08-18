@@ -12,12 +12,12 @@ export class AuthService {
     this.afauth.authState.subscribe(user => {
           if(user) {
             // user logged in
-            console.log('user is:' + user.email);
+            //console.log('user is:' + user.email);
             this.getToken();
           }
           else {
             //
-              console.log('user not logged in');
+            //  console.log('user not logged in');
             //this.user = {};
           }
         });

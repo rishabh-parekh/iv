@@ -21,7 +21,6 @@ export class MainComponent implements OnInit
 
   ngOnInit() {
     this.pagename = this.route.snapshot.params['pagename'];
-    console.log('########################:'+this.pagename);
     if (this.pagename)
     {
     //  this.scrollTo();

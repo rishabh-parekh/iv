@@ -1,3 +1,7 @@
 .cmp {
-  background-image: url('/assets/img/feet.png');
+  background-image: url('/assets/img/mbr-9-2000x1333.jpg');
+}
+
+.btn, .btn-primary, .btn-xl {
+  margin: 0 20px 13px 0
 }

@@ -9,7 +9,7 @@
       "root": "src",
       "outDir": "dist",
       "assets": [
-        { "glob": "**/*", "input": "../node_modules/nanogallery2/dist", "output": "./assets/vendor/nanogallery2" },
+        { "glob": "**/*", "input": "../data", "output": "./assets/data" },
         "assets",
         "favicon.ico"
       ],
