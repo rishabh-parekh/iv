@@ -1,10 +1,10 @@
-import { PalavPage } from './app.po';
+import { IlluminateStoriesPage } from './app.po';
 
-describe('palav App', () => {
-  let page: PalavPage;
+describe('Illuminate Stories App', () => {
+  let page: IlluminateStoriesPage;
 
   beforeEach(() => {
-    page = new PalavPage();
+    page = new IlluminateStoriesPage();
   });
 
   it('should display welcome message', () => {

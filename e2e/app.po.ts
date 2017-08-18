@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class PalavPage {
+export class IlluminateStoriesPage {
   navigateTo() {
     return browser.get('/');
   }

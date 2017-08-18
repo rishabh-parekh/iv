@@ -10,21 +10,21 @@ import { ContactData } from '../components/contact/contactdata';
 
 
 @Injectable()
-export class ContactService 
+export class ContactService
 {
 
-  resourcedatpath: string = '/Palav/contactus/';
-  listings: FirebaseListObservable<any[]>;
+  resourcedatpath: string = '/illuminatestories-7172a/contactus/';
+  contacts: FirebaseListObservable<any[]>;
 
-  constructor(private http: Http,public afd: AngularFireDatabase) 
+  constructor(private http: Http,public afd: AngularFireDatabase)
   {
-	this.listings = this.afd.list(this.resourcedatpath);
+	   this.contacts = this.afd.list(this.resourcedatpath);
   }
 
 
   updateContactData(contactData)
   {
-	return this.listings.push(contactData);
+	   return this.contacts.push(contactData);
   }
 
 }
