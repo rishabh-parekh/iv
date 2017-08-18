@@ -26,6 +26,8 @@ Static Images are stored in `assets\img`. In case you want to add new static ima
 
 ## Data and Services
 Data for the website is either in `firebase` or `data\{article-data.json,catalog-data.json}`
+The database rules for firebase are in `database.rules.json` and are applied every time you do the
+firebase deployment using `firebase deploy`
 
 ## Changing Component content
 In order to update the static content you have to change the appropriate `app` component html.

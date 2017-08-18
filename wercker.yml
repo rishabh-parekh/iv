@@ -22,12 +22,12 @@ build:
     - script:
         name: run ng build
         code: ng build
-    - script:
-         name: ng test
-         code: ng test
-    - script:
-         name: ng e2e
-         code: ng e2e
+    # - script:
+    #      name: ng test
+    #      code: ng test
+    # - script:
+    #      name: ng e2e
+    #      code: ng e2e
 
   after-steps:
     - slack-notifier:

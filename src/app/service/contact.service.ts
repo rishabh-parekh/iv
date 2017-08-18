@@ -13,7 +13,7 @@ import { ContactData } from '../components/contact/contactdata';
 export class ContactService
 {
 
-  resourcedatpath: string = '/illuminatestories-7172a/contactus/';
+  resourcedatpath: string = '/contactus/';
   contacts: FirebaseListObservable<any[]>;
 
   constructor(private http: Http,public afd: AngularFireDatabase)

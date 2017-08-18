@@ -20,7 +20,7 @@ const gmailEmail = encodeURIComponent(functions.config().gmail.email);
 const gmailPassword = encodeURIComponent(functions.config().gmail.password);
 const mailTransport = nodemailer.createTransport(
   `smtps://${gmailEmail}:${gmailPassword}@smtp.gmail.com`);
-exports.sendEmailConfirmation = functions.database.ref('/Illuminate/contactus').onCreate(event => {
+exports.sendEmailConfirmation = functions.database.ref('/illuminatestories-7172a/contactus').onCreate(event => {
   const snapshot = event.data;
   const val = snapshot.val();
   console.log('value is:' + JSON.stringify(val));

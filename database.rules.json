@@ -1,6 +1,12 @@
 {
   "rules": {
-    ".read": "auth != null",
-    ".write": "auth != null"
+    ".read": true,
+    ".write": true,
+    "illuminatestories-7172a": {
+      "contactus": {
+        ".read": true,
+        ".write": true
+      }
+    }
   }
 }
