@@ -11,7 +11,11 @@ import {ContactService} from '../../service/contact.service';
 })
 export class ContactComponent implements OnInit {
   contactData: ContactData;
-  constructor(private contactService: ContactService) { }
+  connected: boolean;
+  constructor(private contactService: ContactService) {
+    this.connected = false;
+  }
+
 
   ngOnInit() {
   }
@@ -19,6 +23,8 @@ export class ContactComponent implements OnInit {
 
   onContact(form: NgForm) {
     console.log('onContact:' + form.value.contname);
+    this.connected = true;
+
     this.contactData = new ContactData('' + new Date(), form.value.contname, form.value.contemail, form.value.contphone, form.value.contmessage);
     this.contactService.updateContactData(this.contactData).then(
       (item) => {
