@@ -1,0 +1,19 @@
+<div class="card-feed-entry">
+  <div class="col-xs-4" >
+    <img width=60% src="https://pinecast-storage.s3.amazonaws.com/podcasts/cefa0a35-db29-42d0-b09e-6e5ea13d448b/image/8bef6c3d-58ca-4733-87ca-88c1890a3597/EH.jpg" class="img-responsive" alt="">
+  </div>
+  <div class="col-xs-8" >
+    <div class="episode-title">
+       {{feed.title}}
+    </div>
+    <div class="episode-description">
+      {{feed.description | stripHtmlTags}}
+    </div>
+    <audio controls class="episode-audio">
+      <source [src]="feed.link" type="audio/mpeg">
+    </audio>
+    <div class="episode-recorder">
+      Recorded by: {{feed.author}} - On {{feed.pubDate | date:'MM-dd-yyyy'}}
+    </div>
+  </div>
+</div>

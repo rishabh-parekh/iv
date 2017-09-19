@@ -1,0 +1,28 @@
+.card-feed-entry {
+  margin: 10px;
+}
+
+.episode-title {
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-size: 30px;
+}
+
+.episode-description {
+  margin: 10px;
+  text-align: left;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-size: 20px;
+}
+
+.episode-audio {
+  margin: 30px;
+  align: left;
+}
+
+.episode-recorder {
+  margin: 10px;
+  text-align: left;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+  font-style: italic;
+  font-size: 15px;
+}

@@ -24,8 +24,12 @@ import {ContactService} from './service/contact.service';
 import {ArticleService} from './service/articleservice';
 import {CatalogService} from './service/catalogservice';
 import {WindowService} from './service/windowservice';
+import {FeedService} from './service/feed.service';
 
 import { OrganizationsComponent } from './components/organizations/organizations.component';
+import { FeedComponent } from './components/feed/feed.component';
+import { FeedCardComponent } from './components/feed-card/feed-card.component';
+import { StripHtmlTagsPipe } from './pipes/strip-html-tags.pipe';
 
 const appRoutes: Routes = [
   { path: '', component: MainComponent },
@@ -44,7 +48,10 @@ firebase.initializeApp(firebaseConfig);
     StoriesComponent,
     ContactComponent,
     MainComponent,
-    OrganizationsComponent
+    OrganizationsComponent,
+    FeedComponent,
+    FeedCardComponent,
+    StripHtmlTagsPipe
   ],
   imports: [
     BrowserModule,
@@ -54,7 +61,7 @@ firebase.initializeApp(firebaseConfig);
     AngularFireModule.initializeApp(firebaseConfig),
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [ArticleService, WindowService, CatalogService, FirebaseService, AngularFireDatabase, AuthService, AuthGuardService, AngularFireAuth,  ContactService],
+  providers: [FeedService,ArticleService, WindowService, CatalogService, FirebaseService, AngularFireDatabase, AuthService, AuthGuardService, AngularFireAuth,  ContactService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
