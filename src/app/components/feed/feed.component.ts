@@ -28,6 +28,7 @@ export class FeedComponent implements OnInit {
     refreshFeed() {
       this.feeds.length = 0;
       // Adds 1s of delay to provide user's feedback.
+      //this.feedService.getFeedContent(this.feedUrl).delay(1000)
       this.feedService.getFeedContent(this.feedUrl).delay(1000)
           .subscribe(
               feed => this.feeds = feed.items,

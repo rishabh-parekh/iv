@@ -1,0 +1,33 @@
+
+span.itunes {
+    background: url(itunes.svg) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    border:0px solid transparent; /* this was 1px earlier */
+    display: inline-block;
+    height: 35px;
+    width: 120px;
+}
+
+span.google {
+    background: url(google-play-badge.png) no-repeat top left;
+    background-size: contain;
+    cursor: pointer;
+    border:0px solid transparent; /* this was 1px earlier */
+    display: inline-block;
+    height: 55px;
+    width: 120px;
+}
+
+.btn-container {
+   overflow: hidden
+}
+button {
+  border:0px;
+  float: center;
+  margin: 0;
+  float: right;
+  color: inherit;
+  background-color: #eee
+
+}

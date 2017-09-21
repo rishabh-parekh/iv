@@ -7,5 +7,6 @@ export interface FeedEntry {
   author: string,
   thumbnail: string,
   description: string,
-  content: string
+  content: string,
+  word: string
 }

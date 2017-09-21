@@ -1,5 +1,14 @@
 <section class="no-padding jumbotron text-center" id="stories">
   <div class="container-fluid">
-      <app-feed-card *ngFor="let feed of feeds" [feed]="feed" ></app-feed-card>
+    <div>
+      <div class="btn-container">
+        <button onclick="window.open('https://itunes.apple.com/us/podcast/illuminate-stories/id1286572865?mt=2')" class="btn-player"><span class="itunes"></span></button>
+        <button onclick="window.open('https://play.google.com/music/m/Ifgm77kd4scuzakbvy57zursbcq?t=Illuminate_Stories')" class="btn-player"><span class="google"></span></button>
+      </div>
+    </div>
+    <app-feed-card *ngFor="let feed of feeds" [feed]="feed" ></app-feed-card>
+
   </div>
+
+
 </section>
