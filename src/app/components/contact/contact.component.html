@@ -12,7 +12,7 @@
         <div *ngIf="!connected">
           <form id="contact" (ngSubmit)="onContact(c)" #c="ngForm">
             <fieldset>
-              <input placeholder="Your name" type="text" id="contname" ngModel name="contname" tabindex="1" required autofocus>
+              <input placeholder="Your name" type="text" id="contname" ngModel name="contname" tabindex="1" required>
             </fieldset>
             <fieldset>
               <input placeholder="Your Email Address" id="contemail" ngModel name="contemail" type="email" tabindex="2" required>
